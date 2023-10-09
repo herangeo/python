@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            background-color: rgb(206, 87, 22);
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgb(140, 57, 12);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            width: 10%;
+            height: 10%;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color:rgb(206, 87, 22);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><strong>GYM</strong></h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <img src="https://www.freepngimg.com/thumb/hand/76374-fitness-logo-vector-creative-download-hd-png.png" alt="#">
+
+    <form action="">
+        <label for="username"><strong>Username</strong></label>
+        <input type="text" id="username" name="username">
+
+        <label for="password"><strong>Password</strong></label>
+        <input type="password" id="password" name="password">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+        &copy; 2023 Your Company Name
+    </footer>
+</body>
+</html>
